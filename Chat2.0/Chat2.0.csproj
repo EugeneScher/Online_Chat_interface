@@ -8,9 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Core\" />
-    <Folder Include="Icons\" />
+    <None Remove="Icons\gray-telephone-png.png" />
+    <None Remove="Icons\icono-de-camara-gris.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="MVVM\View\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Icons\gray-telephone-png.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\icono-de-camara-gris.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
