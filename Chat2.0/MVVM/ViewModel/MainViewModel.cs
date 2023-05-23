@@ -17,7 +17,20 @@ namespace Chat2._0.MVVM.ViewModel
 
         public RelayCommand SendCommand { get; set; }
 
-        public ContactModel SelectedContact { get; set; }
+        private ContactModel _selectedContact;
+
+        public ContactModel SelectedContact
+        {
+            get { return _selectedContact; }
+            set 
+            { _selectedContact = value;
+                OnPropertyChanged();
+            }
+        }
+
+        //public ContactModel SelectedContact { get; set; }
+
+
 
         private string _message;
         
