@@ -28,3 +28,4 @@ C:\Users\user\source\repos\Chat2.0\Chat2.0\obj\Debug\net5.0-windows\Themes\ChatI
 C:\Users\user\source\repos\Chat2.0\Chat2.0\obj\Debug\net5.0-windows\Themes\MessageBox.baml
 C:\Users\user\source\repos\Chat2.0\Chat2.0\obj\Debug\net5.0-windows\Chat2.0.csproj.AssemblyReference.cache
 C:\Users\user\source\repos\Chat2.0\Chat2.0\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\source\repos\Chat2.0\Chat2.0\obj\Debug\net5.0-windows\Themes\StylishScrollbar.baml
